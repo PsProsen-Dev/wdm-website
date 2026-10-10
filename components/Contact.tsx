@@ -131,6 +131,26 @@ export function Contact() {
             </dl>
           </div>
         </div>
+
+        {/* Google Maps embed — WDM office: Panbari Bazar, Maynaguri 735219 */}
+        <div className="relative mx-auto mt-10 max-w-4xl overflow-hidden rounded-3xl border border-white/10">
+          <iframe
+            title="We Digital Mitra (WDM) on Google Maps"
+            src="https://www.google.com/maps?q=26.6719531,88.8455111&z=16&output=embed"
+            className="h-[320px] w-full border-0 sm:h-[420px]"
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            allowFullScreen
+          />
+          <a
+            href="https://www.google.com/maps?q=26.6719531,88.8455111"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute bottom-4 right-4 rounded-xl bg-brand-saffron px-4 py-2 font-display text-sm font-bold text-brand-navy-deep shadow-lg transition-all hover:-translate-y-0.5"
+          >
+            Open in Google Maps
+          </a>
+        </div>
       </div>
     </section>
   );
